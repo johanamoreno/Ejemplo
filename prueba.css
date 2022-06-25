@@ -1,0 +1,29 @@
+/*.container{
+    display: grid; 
+    justify-content: center;
+    grid-gap: 10%;
+    grid-column: 3;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 90px 100px;
+}*/
+.item{
+    background-color: red;  
+    height: 900px;
+    width:500px ;
+}
+
+.p1{
+    justify-content: center;
+}
+
+.body{
+    background-color: whitesmoke;
+}
+
+.footer{
+    text-align: center;
+    position:sticky;
+    bottom: 50;
+    justify-content: center;
+    
+}
